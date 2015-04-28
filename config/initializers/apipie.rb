@@ -12,14 +12,14 @@ Input: \"degrees/minute\"  ->
 
 It can also take an optional value, as a scalar or vector. If this value is supplied, it will simply perform the calculation for the value (or all the values) and also return that in the body of the response. 
 
-Input: { name: \"minute\", input_value: [1,2] } -> 
+Input: { name: \"minute\", input_value: \"1,2\" } -> 
     { 
     \"unit_name\" => \"s\",
     \"multiplication_factor\" => 60.0,
     \"linear_shift\" => 0.0,
     \"output_value\" => [
-        [0] 60.0,
-        [1] 120.0
+        60.0,
+        120.0
     ]}
 
 Here is a sample curl request ->
