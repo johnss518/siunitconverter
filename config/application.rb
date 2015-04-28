@@ -23,6 +23,9 @@ module Siunitconverter
     # autoload lib
     config.autoload_paths += %W(#{config.root}/lib)
     
+    #serve assets by default
+    config.serve_static_assets = true
+    
     #Gzip compression to reduce bandwidth usage
     config.middleware.use Rack::Deflater
 
