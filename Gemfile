@@ -9,6 +9,7 @@ gem 'apipie-rails', '0.3.3'
 
 group :production do
   gem 'pg', '0.12.2'
+  gem 'rails_12factor'
 end
 
 group :development, :test do 
