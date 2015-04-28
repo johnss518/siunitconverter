@@ -93,7 +93,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers (= 0.9.3)
   apipie-rails (= 0.3.3)
-  pg (= 0.12.2)
+  pg
   rack-cors
   rails (= 4.0.0)
   rails-api

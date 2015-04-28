@@ -8,7 +8,7 @@ gem 'apipie-rails', '0.3.3'
 
 
 group :production do
-  gem 'pg', '0.12.2'
+  gem 'pg'
   gem 'rails_12factor'
 end
 
