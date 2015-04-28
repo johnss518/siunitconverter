@@ -26,6 +26,9 @@ module Siunitconverter
     #serve assets by default
     config.serve_static_assets = true
     
+    #disable precompile
+    config.assets.enabled = false
+
     #Gzip compression to reduce bandwidth usage
     config.middleware.use Rack::Deflater
 
