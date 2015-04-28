@@ -21,5 +21,8 @@ Input: { name: \"minute\", input_value: [1,2] } ->
         [0] 60.0,
         [1] 120.0
     ]}
+
+Here is a sample curl request ->
+    { curl \"https://siunitconverter.herokuapp.com/api/v1/unit_conversion?name=degree&input_value=1,2,3\" }
 "
 end
